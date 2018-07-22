@@ -16,7 +16,7 @@
     <meta name="author" content=" Sunny Pukkalli">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Dashboard Template for Bootstrap</title>
+    <title>My Application </title>
 
     <!-- Bootstrap core CSS -->
    <!--  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -54,9 +54,9 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/main/Dashboard.jsp">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
+            <li><a href="/main/Settings.jsp">Settings</a></li>
+            <li><a href="#">User Management</a></li>
+            <li><a href="#">Logut</a></li>
           </ul>
           <form class="navbar-form navbar-right" hidden="true">
             <input type="text" class="form-control" placeholder="Search...">
