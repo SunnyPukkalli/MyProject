@@ -1,7 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"    pageEncoding="ISO-8859-1"%>
 
 <!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html> -->
+<html>
+ -->
 
 
 <!DOCTYPE html>
@@ -38,7 +39,9 @@
     <![endif]-->
   </head>
 
-  <body>
+
+<body>
+
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
@@ -58,24 +61,22 @@
             <li><a href="#">Profile</a></li>
             <li><a href="#">Help</a></li>
           </ul>
-          <form class="navbar-form navbar-right" hidden="true">
+          <form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
           </form>
         </div>
       </div>
     </nav>
-
+    
+    
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+       <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
             <li><a href="#">Reports</a></li>
             <li><a href="#">Analytics</a></li>
             <li><a href="#">Export</a></li>
-            <li><a href="#">Bulk Export</a></li>
-            <li><a href="#">Import</a></li>
-            <li><a href="#">Documents Info</a></li>
           </ul>
           <ul class="nav nav-sidebar">
             <li><a href="">Nav item</a></li>
@@ -90,10 +91,15 @@
             <li><a href="">Another nav item</a></li>
           </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">Dashboard</h1>
+</div>
 
-          <div class="row placeholders">
+
+
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Hello Dashboard</h1>
+
+<!-- 
+    <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
               <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
               <h4>Label</h4>
@@ -115,8 +121,11 @@
               <span class="text-muted">Something else</span>
             </div>
           </div>
+ -->
 
-          <h2 class="sub-header">Statistics</h2>
+
+
+    <h2 class="sub-header">Section title</h2>
           <div class="table-responsive">
             <table class="table table-striped">
               <thead>
@@ -244,10 +253,12 @@
               </tbody>
             </table>
           </div>
-        </div>
-      </div>
-    </div>
-    
+
+</div>
+</div>
+
+
+
     
 
     <!-- Bootstrap core JavaScript
@@ -269,7 +280,6 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
 	<script src="https://getbootstrap.com/docs/3.3/assets/js/ie10-viewport-bug-workaround.js"></script>
-	
-	  
-  </body>
+
+</body>
 </html>
