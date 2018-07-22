@@ -40,6 +40,7 @@
 
   <body>
 
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -56,7 +57,7 @@
             <li><a href="/main/Dashboard.jsp">Dashboard</a></li>
             <li><a href="/main/Settings.jsp">Settings</a></li>
             <li><a href="#">User Management</a></li>
-            <li><a href="#">Logut</a></li>
+            <li><a href="/main/login.jsp">Logut</a></li>
           </ul>
           <form class="navbar-form navbar-right" hidden="true">
             <input type="text" class="form-control" placeholder="Search...">
