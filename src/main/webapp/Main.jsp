@@ -55,7 +55,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/main/Dashboard.jsp">Dashboard</a></li>
-            <li><a href="/main/Settings.jsp">Settings</a></li>
+            <li><a href="/main/import.jsp">Settings</a></li>
             <li><a href="#">User Management</a></li>
             <li><a href="/main/login.jsp">Logut</a></li>
           </ul>
